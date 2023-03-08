@@ -11,5 +11,10 @@ namespace projteste
         {
             MessageBox.Show("Hello Word!");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
